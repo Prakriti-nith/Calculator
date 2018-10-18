@@ -12,6 +12,7 @@ import java.util.List;
 
 
 public class PostFixCalculator {
+    
     private List<String> expression = new ArrayList<String>();
     private Deque<Double> stack = new ArrayDeque<Double>();
 
